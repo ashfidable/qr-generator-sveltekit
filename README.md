@@ -1,38 +1,26 @@
-# create-svelte
+![Banner](./docs/images/banner.png)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+# What is the project about?
 
-## Creating a project
+It is just a simple QR Generator frontend using [node-qrcode](https://github.com/soldair/node-qrcode). Whole heavy lifting is done by the package and it is also bundled for the browser.
 
-If you're seeing this, you've probably already done this step. Congrats!
+This application is just for trying new things like theming and coloring using Svelte goodies.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+# What do I need to run this project?
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+The client is hosted at this website. But to start dev server, you need:
 
-## Developing
+1. Node.JS
+2. PNPM (You can still use npm or yarn or bun?)
+3. IDE of your choice. VSCode is used here.
+4. Understanding of Svelte.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+# To-Dos
 
-```bash
-npm run dev
+- [ ] Theming to make it more dynamic.
+- [ ] Expose all values to frontend.
+- [ ] Change the design a bit to adapt all sizes.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+# Credits
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+1. [node-qrcode](https://github.com/soldair/node-qrcode) by soldair
